@@ -1,0 +1,28 @@
+{
+  "name": "xrj800.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrj800/xrj800.github.io.git"
+  },
+  "author": "Renjie Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xrj800/xrj800.github.io/issues"
+  },
+  "homepage": "https://github.com/xrj800/xrj800.github.io#readme"
+}
