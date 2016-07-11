@@ -167,7 +167,11 @@ gulp.task('wiredep', () => {
 
 gulp.task('deploy', ['build'], () => {
   return gulp.src('dist')
-    .pipe($.subtree())
+    .pipe($.subtree({
+      remote: 'upstream',
+      branch: 'master',
+      message: 'Distribution Commit!'
+    }))
     .pipe($.clean());
 });
 
